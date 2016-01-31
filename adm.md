@@ -30,11 +30,40 @@ Preliminary Phase - Approach
 	* Which applications
 	* Which customer channels
 	* Which outside partners are to be considered part of the enterprise
-
+* Identify key drivers and elements of change
+* Defining the requirements for architecture work (run it like any other project)
 * Choosing frameworks
 	* TOGAF for arch, ITIL for implementation and service mgmt, industry frameworks, etc.
+	* Define the relationships between other frameworks in the organization
 * Evaluate enterprise maturity and capability
-* Define architecture principles
+* Define architecture principles - foundation for making decisions
+
+Inputs
+
+* TOGAF
+* Other arch frameworks
+* Board strategies, board business plans, IT strategy, business principles, business goals, business drivers
+* Major frameworks operating within the business (scrum, etc)
+* Arch capability
+* Parnerships and contract agreements
+
+Steps
+
+1. Scope the enterprise organization impacted - what domain do you operate in? Businesses, applications, etc.
+2. Confirm governance and support frameworks.
+3. Define and establish architecture team
+4. Identify and establish architecture principles
+5. Tailor TOGAF and other frameworks
+6. Implement architecture tools
+
+Outputs
+
+1. Organization model for enterprise architecture
+2. Tailored architecture framework
+3. Initial architecture repository
+4. Restatement of business to business principles, goals, etc.
+5. "Request for Architecture Work" (optional - for running it like a project)
+6. Architecture governance framework - doc stores, log files, decisions, project plans, etc.
 
 [Architecture Vision - Phase A](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap07.html)
 
