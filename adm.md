@@ -14,7 +14,7 @@ Nine phases
 * Eight in a cycles, requirements managment at the core interacting with all phases
 * All phases have inputs, steps, outputs
 
-[Preliminary Phase](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap06.html)
+###[Preliminary Phase](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap06.html)
 
 * Preperation and initiation activities
 
@@ -65,7 +65,7 @@ Outputs
 5. "Request for Architecture Work" (optional - for running it like a project)
 6. Architecture governance framework - doc stores, log files, decisions, project plans, etc.
 
-[Architecture Vision - Phase A](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap07.html)
+###[Architecture Vision - Phase A](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap07.html)
 
 * Problems defined, solutions to be delivered
 * Develop a high level vision to be delivered
@@ -76,8 +76,80 @@ Outputs
 
 Architecture Vision - Objectives
 
-* Develop a high-level aspirational vision of the capabilities and business value to be delivered as a result of the proposed enterprise architecture
+* Develop a high-level vision of the capabilities and business value to be delivered as a result of the proposed enterprise architecture
 * Obtain approval for a Statement of Architecture Work that defines a program of works to develop and deploy the architecture outlined in the Architecture Vision
+	* Define Scope
+	* Estimate Resources needed
+	* Developer a roadmap and schedule
+	* Define KPIs and metrics
+	* Communications plan
+
+Objectives
+
+1. Developer a high level aspirational vision of the capabilities and business value to be delivered
+2. Obtain approval for the statement of architecture work
+
+
+Approach
+
+1. Create the request for architecture work - carefully define scope - what's in, what's out
+2. Creating the architecture vision
+3. Go through the [ADM "business scenarios" process](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap26.html) (use cases)
+
+Business Scenarios process
+
+1. Start with a problem
+2. A problem exists in an *environment*
+3. That environment has *objectives*
+4. There are human *actors*
+5. There are computer *actors* which systems
+6. There are *roles and responsibilities* for all of these.
+7. You go back through the steps to *refine* things
+
+Inputs
+
+1. External reference models
+2. Request for architecture work (prelim phase)
+3. Business principles, goals, and drivers (prelim)
+4. Org model for enterprise architecture (prelim)
+5. Tailored architecture framework (prelim)
+6. Populated architecture repo (prelim)
+
+
+Note - all of the above are common inputs for the architecture definitions phases
+
+Steps
+
+1. Establish the architecture project (kickoff, schedule, tasks, project mgmt)
+2. Identitfy stakeholders, concerns, and business requirements
+3. Confirm business goals, drivers, and constraints
+4. Evaluate *business* capabilities
+5. Assess readiness for transformation
+6. Define the scope
+7. Confirm [architecure prinicples](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap23.html), including business principles
+8. Developer the architecture vision
+9. Define the target architecture value and KPIs
+10. Identify transformation risks and mitigation strategies
+11. Develop statement of architecture work, secure approval
+
+Outputs (usually documents)
+
+1. Approved statement of architecture work
+2. Refined statements of business principles, goals, and drivers
+3. Architecture principles
+4. Capability assessment
+5. Tailored architecture framework
+6. Architecture vision
+7. Draft architecture definition document (version 0.1 of all baseine and target BDAT documents)
+8. Communications plan
+9. Additional content in the architecture repository
+
+Artifacts
+
+* Matrices: stakeholder map matrix
+* Diagrams: value chain diagran, solution context diagram 
+
+
 
 [Business Architeture - Phase B](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap08.html)
 
@@ -132,7 +204,7 @@ Phase F - Migration Planning
 
 * Finalize the architecture roadmap and the implementation and migration plans from phase E
 * Ensure the plan is coordinated with the enterprise's approach to change
-	* Risk averse organizations vs risk taking organizations	
+	* Risk averse organizations vs risk taking organizations
 * Ensure the business value of the approach is understood by the stakeholders
 * Start thinking about implementation: costs, resources, timing
 * Transition from developing the architecture to implementing
@@ -168,7 +240,7 @@ Requirements Management
 * Not mandatory, can just follow A - H, normal one phase at a time approach
 * Architecture development iteration
 	* Example: baseline first
-		* Do B - H to do the baseline 
+		* Do B - H to do the baseline
 		* Go back to B - H to go light pass target arch
 		* B - H again, target detail
 	* Example: target first
@@ -179,5 +251,3 @@ Requirements Management
 	* Loop between G and H
 * Architecture capability
 	* Done with H, back to A - access your capability, do some iteration on it halfway through between A and H
-
-
